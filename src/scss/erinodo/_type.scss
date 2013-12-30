@@ -1,0 +1,31 @@
+.header--fabrication {
+  font-family: "Uralita", sans-serif;
+  font-weight: 800;
+}
+
+.header--puppets-masks {
+  font-family: "Pacifico", sans-serif;
+}
+
+.header--art-direction {
+  font-family: "Cutive Mono", sans-serif;
+}
+
+.header--scenic-painting {
+  font-family: "Lobster", sans-serif;
+}
+
+.hero--nav {
+  h2 {
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+}
+
+.home--main-heading {
+  display: inline-block;
+  margin-left: 25px;
+  margin-bottom: rem-calc(30);
+  border-bottom: 6px solid #000;
+  line-height: 1;
+}

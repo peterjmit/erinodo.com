@@ -1,0 +1,18 @@
+@import "compass/utilities/sprites";
+@import "icons/*.png";
+
+.icon {
+  display: inline-block;
+}
+
+.star {
+  @include icons-sprite(star);
+  width: 50px;
+  height: 49px;
+}
+
+.heart {
+  @include icons-sprite(heart);
+  width: 56px;
+  height: 49px;
+}

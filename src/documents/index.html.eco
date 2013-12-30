@@ -1,0 +1,34 @@
+---
+isPage: true
+---
+
+<div class="row">
+  <div class="small-8 small-centered columns">
+    <div class="row">
+      <div class="large-12 columns">
+        <i class="icon star"></i>
+        <h1 class="home--main-heading text-center">
+          Erin O'Donnell
+        </h1>
+        <i class="icon heart right"></i>
+      </div>
+    </div>
+
+    <nav class="hero--nav text-center">
+      <ul class="no-bullet">
+        <li>
+          <h2 class="header--fabrication">Fabrication</h2>
+        </li>
+        <li>
+          <h2 class="header--puppets-masks">Puppets and Masks</h2>
+        </li>
+        <li>
+          <h2 class="header--art-direction">Art Direction</h2>
+        </li>
+        <li>
+          <h2 class="header--scenic-painting">Scenic Painting</h2>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</div>

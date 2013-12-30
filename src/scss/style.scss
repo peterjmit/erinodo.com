@@ -1,0 +1,36 @@
+// Global Foundation Settings
+@import "settings";
+
+@import
+  "foundation/components/block-grid",
+  "foundation/components/grid",
+  "foundation/components/inline-lists",
+  "foundation/components/type";
+
+@import
+  "erinodo/type",
+  "erinodo/icons";
+
+body {
+  padding-top: rem-calc(25);
+}
+
+#main {
+  background-image: image-url("bird.png");
+  background-repeat: no-repeat;
+  background-size: 18%;
+  min-height: 485px;
+}
+
+#bottom {
+  background-color: #000;
+  color: #fff;
+  margin-top: rem-calc(80);
+  padding-top: rem-calc(15);
+}
+
+.hero--nav {
+  border: 3px dashed #000;
+  border-radius: 15px;
+  padding: rem-calc(15);
+}
