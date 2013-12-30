@@ -24,6 +24,14 @@ docpadConfig =
 
     getMetaKeywords: -> @site.keywords.concat(@document.tags or []).join(", ")
 
+    getBodyClass: -> @document.bodyClass or ""
+
+    isActiveNav: (section) ->
+      if @document.section == section
+        "active"
+      else
+        ""
+
   collections:
     # add some default meta data
     all: ->

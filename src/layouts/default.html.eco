@@ -22,9 +22,48 @@
   <link rel="shortcut icon" href="/favicon.ico">
 </head>
 
-<body>
-
+<body class="<%= @getBodyClass() %>">
   <header id="top" role="banner">
+    <div class="row">
+      <div class="large-8 large-centered columns">
+        <i class="icon star"></i>
+        <h1 class="home--main-heading text-center">
+          <a href="/">Erin O'Donnell</a>
+        </h1>
+        <i class="icon heart right"></i>
+      </div>
+    </div>
+
+    <% if @getBodyClass() != "home": %>
+    <div class="row">
+      <div class="large-12 large-centered columns">
+        <nav>
+          <ul class="inline-list the-nav">
+            <li>
+              <a class="<%= @isActiveNav('fabrication') %> header--fabrication" href="/fabrication">
+                Fabrication
+              </a>
+            </li>
+            <li>
+              <a class="<%= @isActiveNav('puppets-and-masks') %> header--puppets-masks" href="/puppets-and-masks">
+                Puppets and Masks
+              </a>
+            </li>
+            <li>
+              <a class="<%= @isActiveNav('art-direction') %> header--art-direction" href="/art-direction">
+                Art Direction
+              </a>
+            </li>
+            <li>
+              <a class="<%= @isActiveNav('scenic-painting') %> header--scenic-painting" href="/scenic-painting">
+                Scenic Painting
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <% end %>
   </header>
 
   <main id="main" role="main">

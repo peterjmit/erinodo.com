@@ -1,32 +1,39 @@
 ---
 isPage: true
+bodyClass: home
 ---
 
 <div class="row">
   <div class="small-8 small-centered columns">
-    <div class="row">
-      <div class="large-12 columns">
-        <i class="icon star"></i>
-        <h1 class="home--main-heading text-center">
-          Erin O'Donnell
-        </h1>
-        <i class="icon heart right"></i>
-      </div>
-    </div>
-
     <nav class="hero--nav text-center">
       <ul class="no-bullet">
         <li>
-          <h2 class="header--fabrication">Fabrication</h2>
+          <h2 class="header--fabrication">
+            <a href="/fabrication">
+              Fabrication
+            </a>
+          </h2>
         </li>
         <li>
-          <h2 class="header--puppets-masks">Puppets and Masks</h2>
+          <h2 class="header--puppets-masks">
+            <a href="/puppets-and-masks">
+              Puppets and Masks
+            </a>
+          </h2>
         </li>
         <li>
-          <h2 class="header--art-direction">Art Direction</h2>
+          <h2 class="header--art-direction">
+            <a href="/art-direction">
+              Art Direction
+            </a>
+          </h2>
         </li>
         <li>
-          <h2 class="header--scenic-painting">Scenic Painting</h2>
+          <h2 class="header--scenic-painting">
+            <a href="/scenic-painting">
+              Scenic Painting
+            </a>
+          </h2>
         </li>
       </ul>
     </nav>

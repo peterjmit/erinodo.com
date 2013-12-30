@@ -12,13 +12,14 @@
   "erinodo/icons";
 
 body {
-  padding-top: rem-calc(25);
+  padding-top: rem-calc(50);
 }
 
-#main {
+body.home {
   background-image: image-url("bird.png");
   background-repeat: no-repeat;
   background-size: 18%;
+  background-position: 0% 25%;
   min-height: 485px;
 }
 
@@ -33,4 +34,17 @@ body {
   border: 3px dashed #000;
   border-radius: 15px;
   padding: rem-calc(15);
+}
+
+.the-nav {
+  font-size: 1.7rem;
+  margin-left: 4%;
+  a { color: #000; }
+}
+
+a.active {
+  color: #fff;
+  background-color: #e1985f;
+  border-radius: 3px;
+  padding: 2px 8px;
 }
