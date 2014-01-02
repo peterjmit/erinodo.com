@@ -85,7 +85,9 @@
         </nav>
 
         <p class="right">
-          Etsy Shop
+          <a href="http://www.etsy.com/shop/erinspapermache" target="_blank">
+            Etsy Shop
+          </a>
         </p>
       </div>
     </div>
