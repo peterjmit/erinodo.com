@@ -33,19 +33,28 @@ docpadConfig =
         ""
 
     getPrimaryImage: (project) ->
-        "/img/#{project.section}/#{project.primary_image}"
+      "/img/#{project.section}/#{project.primary_image}"
 
   collections:
     # add some default meta data
     all: ->
       @getCollection("html").findAllLive().on "add", (model) ->
-        model.setMetaDefaults({ layout: "default", isPage: false })
+        model.setMetaDefaults({ layout: "default", isPage: false, sort: 0 })
 
     pages: ->
       @getCollection("html").findAllLive({ isPage: true })
 
     scenicPainting: ->
-      @getFilesAtPath("scenic-painting").findAllLive({ isPage: false })
+      @getFilesAtPath("scenic-painting").findAllLive({ isPage: false }, [{ sort: 1 }])
+
+    artDirection: ->
+      @getFilesAtPath("art-direction").findAllLive({ isPage: false }, [{ sort: 1 }])
+
+    fabrication: ->
+      @getFilesAtPath("fabrication").findAllLive({ isPage: false }, [{ sort: 1 }])
+
+    puppetsAndMasks: ->
+      @getFilesAtPath("puppetsAndMasks").findAllLive({ isPage: false }, [{ sort: 1 }])
 
   events:
     writeAfter: (opts, next) ->

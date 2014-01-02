@@ -9,7 +9,7 @@ section: scenic-painting
       <% for project in @getCollection("scenicPainting").toJSON(): %>
       <li>
         <a href="<%= project.url %>">
-          <img src="<%= @getThumbnail(@getPrimaryImage(project)) %>" alt="">
+          <img src="<%= @getThumbnail(@getPrimaryImage(project)) %>" alt="<%= project.title %>" title="<%= project.title %>">
         </a>
       </li>
       <% end %>
