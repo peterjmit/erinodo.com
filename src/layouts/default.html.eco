@@ -73,8 +73,14 @@
       <div class="small-12 columns">
         <nav class="left">
           <ul class="inline-list">
-            <li>Contact</li>
-            <li>Resumé</li>
+            <li>
+              Contact
+            </li>
+            <li>
+              <a href="/erin-odonnell-resume.pdf" download="erin-odonnell-resume.pdf">
+                Resumé
+              </a>
+            </li>
           </ul>
         </nav>
 
