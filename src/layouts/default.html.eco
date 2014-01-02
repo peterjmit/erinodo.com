@@ -12,8 +12,6 @@
 
   <meta name="description" content="<%= @getMetaDescription() %>">
   <meta name="keywords" content="<%= @getMetaKeywords() %>">
-  <meta name="author" content="<%= @site.author %>">
-  <meta name="email" content="<%= @site.email %>">
 
   <link href="/css/style.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/css/font.css" media="screen, projection" rel="stylesheet" type="text/css">
