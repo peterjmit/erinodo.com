@@ -1,0 +1,11 @@
+---
+layout: default
+---
+
+<div class="row">
+  <div class="large-12 columns">
+    <!-- <h1><%= @document.title %></h1> -->
+    <img src="<%= @getPrimaryImage(@document) %>" alt="" class="text-center" />
+    <%- @content %>
+  </div>
+</div>
