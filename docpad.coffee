@@ -32,6 +32,9 @@ docpadConfig =
       else
         ""
 
+    getPrimaryImage: (project) ->
+        "/img/#{project.section}/#{project.primary_image}"
+
   collections:
     # add some default meta data
     all: ->
@@ -40,6 +43,9 @@ docpadConfig =
 
     pages: ->
       @getCollection("html").findAllLive({ isPage: true })
+
+    scenicPainting: ->
+      @getFilesAtPath("scenic-painting").findAllLive({ isPage: false })
 
   events:
     writeAfter: (opts, next) ->
@@ -57,6 +63,17 @@ docpadConfig =
 
       # Chain
       @
+
+  plugins:
+    thumbnails:
+      imageMagick: true
+      extensions: ['jpg', 'JPG', 'jpeg', 'JPEG', 'png', 'PNG', 'gif', 'GIF']
+      presets:
+        'default':
+          w: 330
+          h: 330
+      targets:
+        'default': 'zoomcrop'
 
 # Export the DocPad Configuration
 module.exports = docpadConfig

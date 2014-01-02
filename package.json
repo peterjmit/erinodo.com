@@ -13,7 +13,8 @@
     "docpad-plugin-livereload": "~2.5",
     "grunt": "~0.4",
     "grunt-contrib-compass": "~0.7",
-    "safeps": "~2.2.10"
+    "safeps": "~2.2.10",
+    "docpad-plugin-thumbnails": "~2.1.1"
   },
   "main": "node_modules/docpad/bin/docpad-server",
   "scripts": {
