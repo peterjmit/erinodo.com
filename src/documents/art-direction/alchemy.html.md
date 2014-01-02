@@ -1,5 +1,5 @@
 ---
-title: Alchemy - Directed by Katrelle Kindred
+title: Alchemy
 layout: project
 section: art-direction
 primary_image: artdirecting3.jpg
