@@ -6,12 +6,13 @@ section: scenic-painting
 <div class="row">
   <div class="large-12 columns">
     <ul class="small-block-grid-3">
+      <% for project in @getCollection("scenicPainting").toJSON(): %>
       <li>
-        <a href="#">
-          <img src="/img/scenic-painting/painting1.JPG" alt="">
-          Quenten Massy Replica > Acrylic on Canvas > 6' x 6'
+        <a href="<%= project.url %>">
+          <img src="<%= @getThumbnail(@getPrimaryImage(project)) %>" alt="">
         </a>
       </li>
+      <% end %>
     </ul>
   </div>
 </div>
