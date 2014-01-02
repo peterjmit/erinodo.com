@@ -54,7 +54,7 @@ docpadConfig =
       @getFilesAtPath("fabrication").findAllLive({ isPage: false }, [{ sort: 1 }])
 
     puppetsAndMasks: ->
-      @getFilesAtPath("puppetsAndMasks").findAllLive({ isPage: false }, [{ sort: 1 }])
+      @getFilesAtPath("puppets-and-masks").findAllLive({ isPage: false }, [{ sort: 1 }])
 
   events:
     writeAfter: (opts, next) ->
