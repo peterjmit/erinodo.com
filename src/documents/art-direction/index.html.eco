@@ -3,3 +3,16 @@ isPage: true
 section: art-direction
 ---
 
+<div class="row">
+  <div class="large-12 columns">
+    <ul class="small-block-grid-3">
+      <% for project in @getCollection("artDirection").toJSON(): %>
+      <li>
+        <a href="<%= project.url %>">
+          <img src="<%= @getThumbnail(@getPrimaryImage(project)) %>" alt="<%= project.title %>" title="<%= project.title %>">
+        </a>
+      </li>
+      <% end %>
+    </ul>
+  </div>
+</div>
