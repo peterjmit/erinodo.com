@@ -6,6 +6,6 @@ primary_image: artdirecting3.jpg
 sort: 3
 ---
 
-<br>
+![Alchemy](/img/art-direction/artdirecting4.jpg)
 
-<img src="/img/art-direction/artdirecting4.jpg" alt="" />
+Alchemy - Directed by Katrelle Kindred - Produced by Rabbit Bandini

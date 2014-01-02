@@ -5,3 +5,5 @@ section: puppets-and-masks
 primary_image: pup9.JPG
 sort: 9
 ---
+
+Stop Motion Puppet (Wire Armature and Faux Fur)
