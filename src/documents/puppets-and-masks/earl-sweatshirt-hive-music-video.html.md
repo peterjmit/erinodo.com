@@ -10,4 +10,6 @@ sort: 1
 
 Mask Designer/Fabricator - Earl Sweatshirt Hive Music Video - Columbia Records
 
-<iframe width="560" height="315" src="//www.youtube.com/embed/0FcDXL5Aw0o" frameborder="0" allowfullscreen></iframe>
+<div class="video-container">
+  <iframe src="//www.youtube.com/embed/0FcDXL5Aw0o" frameborder="0" allowfullscreen></iframe>
+</div>

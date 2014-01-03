@@ -8,4 +8,6 @@ sort: 1
 
 Kait Weston - Til Death do us Part – Music Video
 
-<iframe width="560" height="315" src="//www.youtube.com/embed/V8YgiyLs_h4" frameborder="0" allowfullscreen></iframe>
+<div class="video-container">
+  <iframe width="560" height="315" src="//www.youtube.com/embed/V8YgiyLs_h4" frameborder="0" allowfullscreen></iframe>
+</div>

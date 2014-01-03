@@ -10,4 +10,6 @@ sort: 4
 
 Bite Night Directed by Magee Clegg - Subway Sandwich Web Series
 
-<iframe width="640" height="360" src="http://www.mydamnchannel.com/embed/?e=10080" scrolling="no" frameborder="0"></iframe>
+<div class="video-container">
+  <iframe src="//www.youtube.com/embed/JiMUsZOtjZo" frameborder="0" allowfullscreen></iframe>
+</div>

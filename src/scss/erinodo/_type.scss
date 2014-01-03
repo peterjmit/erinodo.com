@@ -36,12 +36,12 @@
 
 @media #{$medium-only} {
   .site-title .icon {
-      display: none;
+      display: none !important;
   }
 }
 
 @media #{$small-only} {
   .site-title .icon {
-      display: none;
+      display: none !important;
   }
 }

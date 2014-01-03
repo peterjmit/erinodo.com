@@ -14,7 +14,8 @@
   "erinodo/type",
   "erinodo/icons",
   "erinodo/sub-nav",
-  "erinodo/hero-nav";
+  "erinodo/hero-nav",
+  "erinodo/project";
 
 body {
   padding-top: rem-calc(50);
@@ -29,7 +30,22 @@ body {
   color: #fff;
   margin-top: rem-calc(80);
   padding-top: rem-calc(15);
-  a { color: #fff; }
+  margin-bottom: rem-calc(75);
+
+  a {
+    color: #fff;
+    font-size: rem-calc(24);
+  }
+
+  .icon {
+    vertical-align: middle;
+  }
+}
+
+#bottom > .row {
+  max-width: 100%;
+  padding-left: rem-calc(16);
+  padding-right: rem-calc(16);
 }
 
 @media #{$large-up} {

@@ -1,13 +1,14 @@
 ---
 layout: default
+bodyClass: project
 ---
 
-<div class="row">
+<article class="row project">
   <div class="large-12 columns">
     <p>
-      <img src="<%= @getPrimaryImage(@document) %>" alt="" class="text-center" />
+      <img src="<%= @getPrimaryImage(@document) %>" alt="<%= @document.name %>" />
     </p>
 
     <%- @content %>
   </div>
-</div>
+</article>

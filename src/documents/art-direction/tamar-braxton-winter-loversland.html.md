@@ -6,4 +6,4 @@ primary_image: artdirecting2.jpg
 sort: 2
 ---
 
-Tamar Braxton- Winter Loversland Album Cover
+Tamar Braxton - Winter Loversland Album Cover

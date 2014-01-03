@@ -4,13 +4,13 @@
 docpadConfig =
   templateData:
     site:
-      url: "http://erinodonnell.ca"
+      url: "http://erinodo.com"
       title: "Erin O'Donnell :: Specialist Fabricator"
       description: """
         Erin O'Donnell
       """
       author: "Erin O'Donnell"
-      email: "erin@erinodonnell.co"
+      email: "erin@erinodo.com"
       keywords: ""
 
     # Helper data
