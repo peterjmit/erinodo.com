@@ -5,13 +5,14 @@ docpadConfig =
   templateData:
     site:
       url: "http://erinodo.com"
-      title: "Erin O'Donnell :: Specialist Fabricator"
+      title: "Erin O'Donnell :: Scenic Painting - Specialty Fabricator - Puppets"
       description: """
-        Erin O'Donnell
+        Erin O'Donnell is a puppet fabricator, prop fabricator and scenic painter
+        for film television and theatre
       """
       author: "Erin O'Donnell"
       email: "erin@erinodo.com"
-      keywords: ""
+      keywords: "Scenic Painting, Specialty Fabricator, Puppets, Art Director"
 
     # Helper data
     getPageTitle: ->
