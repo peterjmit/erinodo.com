@@ -10,4 +10,6 @@ sort: 3
 
 Puppet Designer/Fabricator- FAIL LAB Episode 1- Evolution
 
-<iframe width="560" height="315" src="//www.youtube.com/embed/c0msBWyTzU0" frameborder="0" allowfullscreen></iframe>
+<div class="video-container">
+  <iframe src="//www.youtube.com/embed/c0msBWyTzU0" frameborder="0" allowfullscreen></iframe>
+</div>
