@@ -16,10 +16,20 @@ docpadConfig =
 
     # Helper data
     getPageTitle: ->
+      str = ""
+
       if @document.title
-        "#{@document.title} :: #{@site.title}"
+        str = "#{@document.title} :: "
+
+      if @document.section
+        section = @document.section.split('-').map((word) -> word.substr(0, 1).toUpperCase() + word.substr(1)).join(' ')
+        str = "#{str}#{section}"
+
+      if str
+        "#{str} :: #{@site.title}"
       else
         @site.title
+
 
     getMetaDescription: -> @document.description or @site.description
 
