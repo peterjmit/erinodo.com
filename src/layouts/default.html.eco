@@ -23,12 +23,14 @@
 <body class="<%= @getBodyClass() %>">
   <header id="top" role="banner">
     <div class="row">
-      <div class="large-8 large-centered columns">
-        <i class="icon star"></i>
-        <h1 class="home--main-heading text-center">
-          <a href="/">Erin O'Donnell</a>
-        </h1>
-        <i class="icon heart right"></i>
+      <div class="small-8 small-centered columns">
+        <div class="site-title">
+          <i class="icon star"></i>
+          <h1>
+            <a href="/">Erin O'Donnell</a>
+          </h1>
+          <i class="icon heart right"></i>
+        </div>
       </div>
     </div>
 
