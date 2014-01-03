@@ -74,10 +74,14 @@
         <nav class="left">
           <ul class="inline-list">
             <li>
-              Contact
+              <a href="mailto:erin@erinodo.com">
+                <i class="icon arrow-thin"></i>
+                Contact
+              </a>
             </li>
             <li>
               <a href="/erin-odonnell-resume.pdf" download="erin-odonnell-resume.pdf">
+                <i class="icon arrow-thin"></i>
                 Resumé
               </a>
             </li>
@@ -86,7 +90,8 @@
 
         <p class="right">
           <a href="http://www.etsy.com/shop/erinspapermache" target="_blank">
-            Etsy Shop
+            <i class="icon arrow-fat"></i>
+            ETSY Shop
           </a>
         </p>
       </div>

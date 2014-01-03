@@ -2,7 +2,7 @@
 @import "icons/*.png";
 
 .icon {
-  display: inline-block;
+  display: inline-block !important;
 }
 
 .star {
@@ -15,4 +15,16 @@
   @include icons-sprite(heart);
   width: 56px;
   height: 49px;
+}
+
+.arrow-fat {
+  @include icons-sprite(arrow-fat);
+  width: 93px;
+  height: 34px;
+}
+
+.arrow-thin {
+  @include icons-sprite(arrow-thin);
+  width: 77px;
+  height: 25px;
 }
