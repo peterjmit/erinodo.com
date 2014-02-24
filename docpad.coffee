@@ -46,6 +46,28 @@ docpadConfig =
     getPrimaryImage: (project) ->
       "/img/#{project.section}/#{project.primary_image}"
 
+    getNextProject: () ->
+      if @getCollection(@document.section) and @document.isPage is false
+        for document,documentIndex in @getCollection(@document.section).toJSON()
+          if @document.id is document.id
+            if documentIndex < @getCollection(@document.section).length - 1
+              return @getCollection(@document.section).toJSON()[documentIndex + 1]
+            else
+              return null
+      else
+        return null
+
+    getPrevProject: () ->
+      if @getCollection(@document.section) and @document.isPage is false
+        for document,documentIndex in @getCollection(@document.section).toJSON()
+          if @document.id is document.id
+            if documentIndex >= 1
+              return @getCollection(@document.section).toJSON()[documentIndex-1]
+            else
+              return null
+      else
+        return null
+
   collections:
     # add some default meta data
     all: ->
