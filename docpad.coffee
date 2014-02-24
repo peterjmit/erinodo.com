@@ -55,16 +55,16 @@ docpadConfig =
     pages: ->
       @getCollection("html").findAllLive({ isPage: true })
 
-    scenicPainting: ->
+    'scenic-painting': ->
       @getFilesAtPath("scenic-painting").findAllLive({ isPage: false }, [{ sort: 1 }])
 
-    artDirection: ->
+    'art-direction': ->
       @getFilesAtPath("art-direction").findAllLive({ isPage: false }, [{ sort: 1 }])
 
-    fabrication: ->
+    'fabrication': ->
       @getFilesAtPath("fabrication").findAllLive({ isPage: false }, [{ sort: 1 }])
 
-    puppetsAndMasks: ->
+    'puppets-and-masks': ->
       @getFilesAtPath("puppets-and-masks").findAllLive({ isPage: false }, [{ sort: 1 }])
 
   events:

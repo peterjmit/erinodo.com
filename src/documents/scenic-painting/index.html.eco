@@ -6,7 +6,7 @@ section: scenic-painting
 <div class="row">
   <div class="large-12 columns">
     <ul class="small-block-grid-3">
-      <% for project in @getCollection("scenicPainting").toJSON(): %>
+      <% for project in @getCollection("scenic-painting").toJSON(): %>
       <li>
         <a href="<%= project.url %>">
           <img src="<%= @getThumbnail(@getPrimaryImage(project)) %>" alt="<%= project.title %>" title="<%= project.title %>">

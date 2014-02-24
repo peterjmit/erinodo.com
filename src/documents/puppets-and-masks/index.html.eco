@@ -6,7 +6,7 @@ section: puppets-and-masks
 <div class="row">
   <div class="large-12 columns">
     <ul class="small-block-grid-3">
-      <% for project in @getCollection("puppetsAndMasks").toJSON(): %>
+      <% for project in @getCollection("puppets-and-masks").toJSON(): %>
       <li>
         <a href="<%= project.url %>">
           <img src="<%= @getThumbnail(@getPrimaryImage(project)) %>" alt="<%= project.name %>" title="<%= project.title %>">
