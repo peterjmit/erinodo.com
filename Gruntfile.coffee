@@ -14,8 +14,31 @@ module.exports = ->
           outputStyle: 'compressed'
           raw: 'http_path = "/"\n relative_assets = true\n'
 
+    responsive_images:
+      normalize:
+        options:
+          sizes: [
+            {
+              width: 970
+            }
+          ]
+        files: [
+          {
+            expand: true,
+            cwd: 'src/files/img/'
+            src: [
+              'art-direction/*.{jpg,gif,png}'
+              'fabrication/*.{jpg,gif,png}'
+              'puppets-and-masks/*.{jpg,gif,png}'
+              'scenic-painting/*.{jpg,gif,png}'
+            ]
+            custom_dest: 'src/files/img/{%= path %}/'
+          }
+        ]
+
   # Load external Grunt task plugins.
   @loadNpmTasks 'grunt-contrib-compass'
+  @loadNpmTasks 'grunt-responsive-images'
 
   # Default task.
   @registerTask 'default', ['compass']
