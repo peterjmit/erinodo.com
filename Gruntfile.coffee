@@ -36,8 +36,21 @@ module.exports = ->
           }
         ]
 
+    imagemin:
+      dynamic:
+        options:
+          cache: false
+        files: [
+          {
+            expand: true
+            cwd: 'src/files/img/'
+            src: ['**/*.{png,jpg,gif}']
+          }
+        ]
+
   # Load external Grunt task plugins.
   @loadNpmTasks 'grunt-contrib-compass'
+  @loadNpmTasks 'grunt-contrib-imagemin'
   @loadNpmTasks 'grunt-responsive-images'
 
   # Default task.

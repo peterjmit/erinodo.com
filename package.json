@@ -26,6 +26,7 @@
     "docpad-plugin-eco": "~2.0.3",
     "docpad-plugin-livereload": "~2.5.4",
     "docpad": "~6.59.6",
-    "grunt-responsive-images": "~0.1.1"
+    "grunt-responsive-images": "~0.1.1",
+    "grunt-contrib-imagemin": "~0.5.0"
   }
 }
