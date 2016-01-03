@@ -3,7 +3,7 @@ title: Sesame Street: H is for Halloween
 layout: project
 section: art-direction
 primary_image: AD-SS7MAIN.png
-sort: 3
+sort: 2
 ---
 
 Production Designer - Sesame Street Segment - H is for Halloween - Directed by Matthew Reichman

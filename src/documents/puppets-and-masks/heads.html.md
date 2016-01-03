@@ -3,7 +3,7 @@ title: Heads
 layout: project
 section: puppets-and-masks
 primary_image: P-heads3MAIN.JPG
-sort: 4
+sort: 12
 ---
 
 Custom Paper Mache Heads

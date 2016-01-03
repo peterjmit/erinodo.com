@@ -3,7 +3,7 @@ title: Criminal Minds: Beyond Borders
 layout: project
 section: puppets-and-masks
 primary_image: P-criminalMAIN.JPG
-sort: 4
+sort: 2
 ---
 
 Fabricator - Criminal Minds: Beyond Borders - Production Design by Stuart Blatt

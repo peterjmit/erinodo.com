@@ -3,7 +3,7 @@ title: Tungsten Artery
 layout: project
 section: puppets-and-masks
 primary_image: P-tungstenMAIN.jpg
-sort: 4
+sort: 9
 ---
 
 Fabricator and Puppeteer - Tungsten Artery - Directed by Janie Geiser - Puppet Design by Janie Geiser

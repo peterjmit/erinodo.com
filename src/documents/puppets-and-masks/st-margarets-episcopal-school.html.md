@@ -3,7 +3,7 @@ title: St. Margaret's Episcopal School
 layout: project
 section: puppets-and-masks
 primary_image: pup5A.JPG
-sort: 5
+sort: 13
 ---
 
 ![St. Margaret's Episcopal School](/img/puppets-and-masks/pup5B.JPG)

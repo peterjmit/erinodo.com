@@ -3,7 +3,7 @@ title: Bite Night Directed by Magee Clegg
 layout: project
 section: art-direction
 primary_image: artdirecting5.png
-sort: 4
+sort: 8
 ---
 
 ![Bite Night Subway Commercial](/img/art-direction/artdirecting6.png)

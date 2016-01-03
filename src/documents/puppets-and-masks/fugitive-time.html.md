@@ -3,7 +3,7 @@ title: Fugitive Time
 layout: project
 section: puppets-and-masks
 primary_image: P-Fugitive1MAIN.jpg
-sort: 4
+sort: 8
 ---
 
 Fabricator and Puppeteer - Fugitive Time - Directed by Janie Geiser - Puppet Design by Janie Geiser

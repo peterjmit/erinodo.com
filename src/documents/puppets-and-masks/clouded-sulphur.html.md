@@ -3,7 +3,7 @@ title: Clouded Sulphur
 layout: project
 section: puppets-and-masks
 primary_image: pup2A.jpg
-sort: 2
+sort: 7
 ---
 
 ![Clouded sulphur puppet](/img/puppets-and-masks/pup2B.jpg)

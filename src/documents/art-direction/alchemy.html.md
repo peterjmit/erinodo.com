@@ -3,7 +3,7 @@ title: Alchemy
 layout: project
 section: art-direction
 primary_image: artdirecting3.jpg
-sort: 3
+sort: 7
 ---
 
 ![Alchemy](/img/art-direction/artdirecting4.jpg)

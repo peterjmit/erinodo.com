@@ -3,7 +3,7 @@ title: Kait Weston - Til Death do us Part
 layout: project
 section: art-direction
 primary_image: artdirecting1.png
-sort: 1
+sort: 5
 ---
 
 Kait Weston - Til Death do us Part – Music Video

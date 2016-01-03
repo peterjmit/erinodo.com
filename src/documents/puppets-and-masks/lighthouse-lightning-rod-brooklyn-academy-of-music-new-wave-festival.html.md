@@ -3,7 +3,7 @@ title: Lighthouse/Lightning Rod (Brooklyn Academy of Music New Wave Festival; Ch
 layout: project
 section: puppets-and-masks
 primary_image: fab1.jpg
-sort: 1
+sort: 6
 ---
 
 ![Brooklyn Academy New Wave Festival](/img/animal-busts/fab2.JPG)

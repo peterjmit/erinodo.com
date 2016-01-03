@@ -3,7 +3,7 @@ title: The Last Act of Lilka Kadison
 layout: project
 section: puppets-and-masks
 primary_image: P-lilkatravelingMAIN.jpg
-sort: 4
+sort: 10
 ---
 
 Fabricator - The Last Act of Lilka Kadison - Directed by Dan Bonnell - Set and Puppet Design by Susan Simpson - Photo Credit: Susan Simpson

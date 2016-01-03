@@ -3,7 +3,7 @@ title: Digging for Fire
 layout: project
 section: art-direction
 primary_image: digging-for-fire.jpg
-sort: 3
+sort: 1
 ---
 
 Art Director - Feature Film - Digging For Fire - Directed by Joe Swanberg - Production Design by Liz Toonkel
