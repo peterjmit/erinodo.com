@@ -8,7 +8,7 @@ sort: 8
 
 ![Bite Night Subway Commercial](/img/art-direction/artdirecting6.png)
 
-Bite Night Directed by Magee Clegg - Subway Sandwich Web Series
+Bite Night Directed by Magee Clegg - Subway Sandwich Web Series - Production design by Joe Haugen
 
 <div class="video-container">
   <iframe src="//www.youtube.com/embed/JiMUsZOtjZo" frameborder="0" allowfullscreen></iframe>

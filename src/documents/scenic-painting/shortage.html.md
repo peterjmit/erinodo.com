@@ -10,4 +10,4 @@ sort: 11
 
 ![Shortage](/img/scenic-painting/painting12C.png)
 
-Lead Scenic Artist  > Shortage  > Directed by Jessica Kaye > Produced by Rabbit Bandini
+Lead Scenic Artist  > Shortage  > Directed by Jessica Kaye > Produced by Rabbit Bandini > Production design by Evelyn Ellias
