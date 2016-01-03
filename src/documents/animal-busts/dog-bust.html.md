@@ -1,7 +1,7 @@
 ---
 title: Dog Bust (Papier-mâché and feathers/leather)
 layout: project
-section: art-work
+section: animal-busts
 primary_image: fab8.jpg
 sort: 5
 ---

@@ -1,12 +1,12 @@
 ---
 isPage: true
-section: art-work
+section: animal-busts
 ---
 
 <div class="row">
   <div class="large-12 columns">
     <ul class="small-block-grid-3">
-      <% for project in @getCollection("art-work").toJSON(): %>
+      <% for project in @getCollection("animal-busts").toJSON(): %>
       <li>
         <a href="<%= project.url %>">
           <img src="<%= @getThumbnail(@getPrimaryImage(project)) %>" alt="<%= project.name %>" title="<%= project.title %>">

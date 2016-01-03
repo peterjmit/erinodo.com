@@ -28,7 +28,7 @@ module.exports = ->
             cwd: 'src/files/img/'
             src: [
               'art-direction/*.{jpg,gif,png}'
-              'art-work/*.{jpg,gif,png}'
+              'animal-busts/*.{jpg,gif,png}'
               'puppets-and-masks/*.{jpg,gif,png}'
               'scenic-painting/*.{jpg,gif,png}'
             ]
