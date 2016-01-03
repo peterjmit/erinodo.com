@@ -1,7 +1,7 @@
 ---
 title: Christmas Bird Decorations (Papier-mâché)
 layout: project
-section: fabrication
+section: art-work
 primary_image: fab9.JPG
 sort: 6
 ---

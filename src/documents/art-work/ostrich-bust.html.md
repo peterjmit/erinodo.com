@@ -1,7 +1,7 @@
 ---
 title: Ostrich Bust (Papier-mâché)
 layout: project
-section: fabrication
+section: art-work
 primary_image: fab7.jpg
 sort: 4
 ---

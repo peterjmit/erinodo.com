@@ -47,8 +47,8 @@
       <div class="large-12 large-centered columns">
         <ul class="inline-list sub-nav">
           <li>
-            <a class="<%= @isActiveNav('fabrication') %> header--fabrication" href="/fabrication">
-              Fabrication
+            <a class="<%= @isActiveNav('art-work') %> header--art-work" href="/art-work">
+              Art Work
             </a>
           </li>
           <li>

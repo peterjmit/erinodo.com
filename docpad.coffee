@@ -83,8 +83,8 @@ docpadConfig =
     'art-direction': ->
       @getFilesAtPath("art-direction").findAllLive({ isPage: false }, [{ sort: 1 }])
 
-    'fabrication': ->
-      @getFilesAtPath("fabrication").findAllLive({ isPage: false }, [{ sort: 1 }])
+    'art-work': ->
+      @getFilesAtPath("art-work").findAllLive({ isPage: false }, [{ sort: 1 }])
 
     'puppets-and-masks': ->
       @getFilesAtPath("puppets-and-masks").findAllLive({ isPage: false }, [{ sort: 1 }])

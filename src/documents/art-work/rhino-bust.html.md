@@ -1,7 +1,7 @@
 ---
 title: Rhino Bust (Papier-mâché and silver leaf)
 layout: project
-section: fabrication
+section: art-work
 primary_image: fab6.jpg
 sort: 3
 ---
